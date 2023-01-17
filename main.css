@@ -1,0 +1,111 @@
+body {
+    color:  #212427;
+
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#home{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+#projects{
+    background-image: linear-gradient(60deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.fp-watermark {
+    display:none;
+}
+
+#fp-nav ul li .fp-tooltip {
+    color: #212427;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+#bigbanner {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    font-size: 4.5vw;
+    font-weight: 400;
+}
+
+#home img {
+    height: 20vw;
+    border-radius: 50%;
+}
+
+#home table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home td {
+    padding-left: 2vw;
+}
+
+#about p {
+    text-align: left;
+    font-size: 1em;
+}
+
+#about, #skill{
+    padding: 0 15vw 0 15vw;
+    text-align: left;
+
+    color: #fff;
+}
+
+#projects {
+    color: #212427;
+    text-align: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+#skill-content {
+    padding-bottom: 5vw;
+}
+
+hr{
+    color: #fff;
+    border-style: solid;
+}
+
+#skill img {
+    height: 3vw;
+}
+
+#skill table {
+    text-align: center;
+}
+#skill td {
+    padding-right: 30px;
+    font-weight: 700;
+    width: 10vw;
+}
+
+
+.fp-viewing-secondPage #fp-nav ul li .fp-tooltip, .fp-viewing-thirdPage #fp-nav ul li .fp-tooltip{
+    color: #fff;
+}
+
+
+
+
+.fp-viewing-secondPage #fp-nav ul li a span, .fp-viewing-thirdPage #fp-nav ul li a span{
+    background: white;
+}
+
+
+#projects img {
+    height: 12vw;
+}

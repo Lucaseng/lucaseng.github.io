@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.js"
+        integrity="sha512-7cOf9RTSiTzxLfEZ4aFKpdTAM0rI/OSIcr9MEg7sLQoWaMxkCh0wmYDxJMJP8DVMtRC1WCVD6QD749PKZuaajw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.css"
+        integrity="sha512-FKlWnaJrtBEqH+gNy8kvp+/61S+8iOKb5tG+EKCQ3Fc3iUYr9MvnywpkZBcuNKrxQxlnZYpNwDgkZ2atX7wVVg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <title>Lucas Eng</title>
+
+</head>
+
+<body>
+
+
+    <div id="fullpage">
+        <div id="home" class="section">
+
+
+            <table>
+                <tr>
+                    <td>
+                        <h1 id="bigbanner">Kia Ora, <br> I'm Lucas.</h1>
+                    </td>
+                    <td> <img src="2022_NEW_3.jpg" /></td>
+                </tr>
+            </table>
+
+
+        </div>
+        <div id="about" class="section">
+            <h2>Great ideas have great effects. </h2>
+            <p>In today's world, change is rapid. The evolution of technology. The discovery of a new drug. Now, more
+                than ever, when we look at the world around us, we are greeted by great ideas in their ultimate form.
+            </p>
+
+            <p>Most people would agree (in both a literal and metaphorical sense) that today's young people are the
+                answer to tomorrow. But I don't believe that the education sector has evolved at the same rate that
+                today's world has. That is to say, if we want our young people to leave a tangible, beneficial impact on
+                future generations, then they need to develop the ability to:</p>
+
+            <ol>
+                <li>Recognise and discover their strengths</li>
+                <li>Challenge deep and complex issues</li>
+                <li>Think up incredible yet rational solutions</li>
+            </ol>
+
+            <p>I believe we're still very much at the beginning of this journey - a journey I feel strongly inclined to
+                be a part of.</p>
+
+            <p>I aspire to use my knowledge of STEM to help young people learn differently. A way of learning that is
+                more engaging than reading a textbook. A way of thinking that is more than rote memorisation. A method
+                of teaching that plants great ideas with great effects.</p>
+
+            <hr>
+
+            <p>I am currently completing my undergraduate degree at The University of Auckland. I am studying my third
+                year of a Bachelor of Science, majoring in Computer Science and Statistics.</p>
+
+            <p>I am scheduled to graduate in July of 2023, and am looking to begin graduate study in Secondary teaching
+                at the beginning of 2024.</p>
+        </div>
+        <div id="skill" class="section">
+            <div id="skill-content">
+                <h2>Technical Skills</h2>
+                <table>
+                    <tr>
+                        <td><img src="img/python.png" /></td>
+                        <td><img src="img/java.png" /></td>
+                        <td><img src="img/C.png" /></td>
+                        <td><img src="img/R.png" /></td>
+                        <td><img src="img/html.png" /></td>
+                        <td><img src="img/css.png" /></td>
+                        <td><img src="img/js.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>PYTHON</td>
+                        <td>JAVA</td>
+                        <td>C#</td>
+                        <td>R</td>
+                        <td>HTML 5</td>
+                        <td>CSS 3</td>
+                        <td>JAVASCRIPT</td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+        <div id="projects" class="section">
+            <h2>Projects</h2>
+            <table>
+                <tr>
+                    <td><a href="https://www.youtube.com/@brainstormnz/videos"><img src="img/brainstorm.PNG" /></a></td>
+                    <td><img src="img/ga.PNG" /></td>
+                    <td><img src="img/bounce.PNG" /></td>
+                </tr>
+                <tr>
+                    <td><b>Brainstorm New Zealand</b>
+                        <p>A YouTube channel I run in order to develop my ability to teach and lecture. Content heavily
+                            focuses on NCEA Mathematics and Digital Technologies.</p>
+                    </td>
+                    <td><b>The Game Academy</b>
+                        <p>A clone of chess.com. Both front-end and back-end were coded by myself as required by the
+                            brief. The purpose of this project was to demonstrate how APIs connect both the front and
+                            back end together.</p>
+                    </td>
+                    <td><b>Java-based Shape Bouncing</b>
+                        <p>A basic GUI based on the Java platform. The purpose of this project was to demonstrate an
+                            understanding of OOP as well as implementing event handlers.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/solitaire.PNG" /></td>
+                    <td><img src="img/younglife.PNG" /></td>
+                </tr>
+                <tr>
+                    <td><b>Command Line Solitaire</b>
+                        <p>A basic Python based solitaire. The purpose of this program was to demonstrate mastery over
+                            the basics of Python 3.</p>
+                    </td>
+                    <td><b>Young Life New Zealand Trust</b>
+                        <p>A mock website I created as a scholarship project in my ultimate year of High School.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+    <script>
+        new fullpage('#fullpage', {
+
+            // Navigation
+            navigation: true,
+            navigationPosition: 'left',
+            navigationTooltips: ['WELCOME', 'ABOUT ME', 'TECHNICAL SKILLS', 'PROJECTS'],
+            showActiveTooltip: true,
+            continuousVertical: true,
+            anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+        });
+
+
+    </script>
+</body>
+
+</html>
