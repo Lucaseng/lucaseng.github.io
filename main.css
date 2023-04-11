@@ -109,3 +109,20 @@ hr{
 #projects img {
     height: 12vw;
 }
+
+#projects h2 {
+    margin: 0 0 0.1em 0;
+}
+
+#projects table {
+    padding-top: 2em;
+}
+
+#github, #github:visited {
+    color: #1e3c72;
+    transition: all 0.15s;
+}
+
+#github:hover {
+    font-weight: bold;
+}
