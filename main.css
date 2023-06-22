@@ -1,128 +1,164 @@
+* {
+  color: #bad7f2;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+}
+
 body {
-    color:  #212427;
-
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
-    font-family: 'Montserrat', sans-serif;
+  background-color: #112240;
 }
 
-#home{
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+.inter {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
 }
 
-#projects{
-    background-image: linear-gradient(60deg, #fdfbfb 0%, #ebedee 100%);
+.inter-sub {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
 }
 
-.fp-watermark {
-    display:none;
+.navbar {
+  position: fixed;
+  z-index: 3;
 }
 
-#fp-nav ul li .fp-tooltip {
-    color: #212427;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+nav {
+  margin-top: 1.5em;
+}
+#rhs {
+  float: right;
+  padding-left: 63vw;
+  margin-right: 2.5em;
 }
 
+a {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: 0.4s;
 
-#bigbanner {
-    font-family: 'DM Serif Display', serif;
-    text-align: center;
-    font-size: 4.5vw;
-    font-weight: 400;
+  padding-left: 2em;
+  font-size: 1em;
+  color: #7ae582;
+}
+
+#home p {
+  color: #7ae582;
+  font-size: 1.35em;
+  text-align: left;
 }
 
 #home img {
-    height: 20vw;
-    border-radius: 50%;
+  height: 13.5em;
+  border-radius: 50%;
 }
 
-#home table {
-    margin-left: auto;
-    margin-right: auto;
+a:hover {
+  text-decoration-color: #7ae582 !important;
+
+  transition: 0.4s;
 }
 
-#home td {
-    padding-left: 2vw;
+#home h1 {
+  font-size: 6em;
 }
 
-#about p {
-    text-align: left;
-    font-size: 1em;
+h1 {
+  font-size: 4em;
+  margin: 0;
 }
 
-#about, #skill{
-    padding: 0 15vw 0 15vw;
-    text-align: left;
-
-    color: #fff;
+#home-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  flex-direction: column;
 }
 
-#projects {
-    color: #212427;
-    text-align: center;
-    padding-left: 15vw;
-    padding-right: 15vw;
+#welcome-img {
+  display: inline-flex;
 }
 
-h2 {
-    font-family: 'DM Serif Display', serif;
-    font-size: 4vw;
-    font-weight: 400;
+#left-vl {
+  border-left: 1px solid #bad7f2;
+  height: 15vh;
+  position: fixed;
+  bottom: 0;
+  left: 2.5vw;
 }
 
-#skill-content {
-    padding-bottom: 5vw;
+#right-vl {
+  border-left: 1px solid #bad7f2;
+  height: 26vh;
+  position: fixed;
+  bottom: 0;
+  right: 2.5vw;
 }
 
-hr{
-    color: #fff;
-    border-style: solid;
+#right-email p {
+  position: fixed;
+  bottom: 32vh;
+  transform: rotate(-90deg);
+  left: 93.5vw;
 }
 
-#skill img {
-    height: 3vw;
+#linkedin {
+  height: 2.8vh;
+  position: fixed;
+  left: 2vw;
+  bottom: 21.5vh;
+  fill: #bad7f2;
 }
 
-#skill table {
-    text-align: center;
-}
-#skill td {
-    padding-right: 30px;
-    font-weight: 700;
-    width: 10vw;
-}
-
-
-.fp-viewing-secondPage #fp-nav ul li .fp-tooltip, .fp-viewing-thirdPage #fp-nav ul li .fp-tooltip{
-    color: #fff;
+#github {
+  height: 3vh;
+  position: fixed;
+  left: 2vw;
+  bottom: 26vh;
+  fill: #bad7f2;
 }
 
-
-
-
-.fp-viewing-secondPage #fp-nav ul li a span, .fp-viewing-thirdPage #fp-nav ul li a span{
-    background: white;
+#mail {
+  height: 2.2vh;
+  position: fixed;
+  left: 1.8vw;
+  bottom: 17vh;
+  fill: #bad7f2;
 }
 
-
-#projects img {
-    height: 12vw;
+.content {
+  width: 45vw;
+  font-size: 12.5pt;
 }
 
-#projects h2 {
-    margin: 0 0 0.1em 0;
+#about-container,
+#skills-container,
+#project-container {
+  display: flex;
+  justify-content: center;
 }
 
-#projects table {
-    padding-top: 2em;
+.Typewriter__wrapper,
+.Typewriter__cursor {
+  color: #7ae582;
 }
 
-#github, #github:visited {
-    color: #1e3c72;
-    transition: all 0.15s;
+.circular-but {
+  border: 0.1em solid #7ae582;
+  border-radius: 40px;
+  padding: 0.5em 1.5em;
 }
 
-#github:hover {
-    font-weight: bold;
+#project-container div {
+  padding-top: 2.5vh;
+}
+
+#capitalise {
+  padding-top: 1vh !important;
+}
+
+#project-container p {
+  padding-bottom: 0.8vh;
 }
